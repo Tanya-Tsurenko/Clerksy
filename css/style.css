@@ -861,10 +861,12 @@ h6 {
     }
 }
 
-@media(max-width:393px) {
+@media(max-width:401px) {
     .news__button {
-        transform: translateY(10px);
-
+        transform: translate(0);
+        display: block;
+        margin: 20px auto 0;
+        max-width: 100px;
     }
 }
 
